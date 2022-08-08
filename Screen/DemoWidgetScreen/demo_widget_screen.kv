@@ -1,0 +1,58 @@
+<DemoWidgetScreen>:
+    name: "demoWidgetScreen"
+    Button:
+        text: "Go Back"
+        on_press: root.go_main_screen()
+    CustomWidget:
+
+    
+<CustomWidget>
+    TextInput:
+        hint_text: "penis"
+#    GridLayout:
+#        cols: 1
+#        padding: 10, 10
+#        size_hint: 0.5, 0.5
+#        Button:
+#            id: btn
+#            text: "Press me !!"
+#            size_hint: None, None
+#            on_parent: drop_content.dismiss()
+#            on_release: drop_content.open(self)
+#            DropDown:
+#            id: drop_content
+#            on_select: btn.text = f'{args[1]}' # see note below
+#            Button:
+#                id: btn1
+#                text: 'First Item'
+#                size_hint: None, None
+#                height: 35
+#                on_release: drop_content.select('First Item')
+#            Button:
+#                id: btn3
+#                text: 'Second Item'
+#                size_hint: None, None
+#                height: 35
+#                on_release: drop_content.select('Third Item')
+#    DropDown:
+#
+#        id: dropdown
+#        on_parent: self.dismiss()
+#        on_select: btn.text = '{}'.format(args[1])
+#
+#        Button:
+#            text: 'First Item'
+#            size_hint_y: None
+#            height: '48dp'
+#            on_release: dropdown.select('First Item')
+#
+#        Label:
+#            text: 'Second Item'
+#            size_hint_y: None
+#            height: '48dp'
+#
+#        Button:
+#            text: 'Third Item'
+#            size_hint_y: None
+#            height: '48dp'
+#            on_release: dropdown.select('Third Item')
